@@ -69,7 +69,6 @@ function geraSenha() {
 function classificaSenha(tamanhoAlfabeto) {
   let entropia = tamanhoSenha*Math.LOG2(tamanhoSenha);
 
-
     forcaSenha.classList.remove('fraca', 'media', 'forte');
     if (entropia > 57) {
         forcaSenha.classList.add('forte');
